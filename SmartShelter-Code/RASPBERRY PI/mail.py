@@ -5,16 +5,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 def mails():
- #frame = cv2.VideoCapture(0)
- #for i in range(2):
- #   cv2.imwrite('unKnown'+str(i)+'.png', image)
- #del(frame)
- #o=os.popen('scrot /home/pi/PRO/unKnown0.png').read()
- #print(o)
- 
- email_user = 'mmu03091997@gmail.com'
- email_password = 'Qwertyuiop@1'
- email_send = 'mahathmundakkal@gmail.com'
+ email_user = '*************@gmail.com'
+ email_password = '**************'
+ email_send = '****************@gmail.com'
  subject = 'subject'
  msg = MIMEMultipart()
  msg['From'] = email_user
